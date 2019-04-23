@@ -1,3 +1,14 @@
+function apiDecimal2Binary(){
+    console.log(11..toString(2)); // 1011
+}
+
+function apiBinary2Decimal(){
+    var binary1 = "1101000"; 
+    var binary2 = 0b1101000; // 104
+    console.log(parseInt(binary1, 2));
+    console.log(binary2);
+}
+
 /**
  * @description
  * @param {@} num 
@@ -29,7 +40,7 @@ function dec2bin(num) {
  * @description
  * @param {*} num 
  */
-function dec2bin(num) {
+function bitwise(num) {
     var res = '';
     var i = 0;
     var v;
@@ -47,7 +58,7 @@ function dec2bin(num) {
     return res;
 }
 
-console.log(dec2bin(65)); // 0100 0001
+console.log(bitwise(65)); // 0100 0001
 // console.log(dec2bin(-65)); // 1100 0001
 
 
